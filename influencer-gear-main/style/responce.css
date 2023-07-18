@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) {
+    .nab-class-1{
+        flex-direction: column;
+        margin-top: 50px;
+        text-align: center;
+        background-color: beige;
+        font-size: 2.5rem;
+    }
+    .nab-class-2{
+        flex-direction: column;
+        margin-top: 25px;
+    }
+    .section-2-img{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .section-2-head{
+        color: #3A3A3A;
+        text-align: center;
+        font-size: 2.6rem;
+        font-weight: 700;
+        width: 404px;
+        margin-left: 35px;
+        height: 78px;
+        margin-bottom: 4rem;
+    }
+}

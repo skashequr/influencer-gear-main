@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background: #FFF;
+}
+.nab-class-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 87px;
+}
+
+nav>ul {
+    display:flex;
+    gap: 34px;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #3A3A3A;                                  
+    font-size: 16px;
+    font-weight: 600;
+}
+.section-2{
+    
+    max-height: 840px;
+    height: auto;
+    margin-top: 90px;
+    padding: 0 200px;
+    max-width: auto;
+
+}
+.section-2-head{
+    color: #3A3A3A;
+font-size: 3.3rem;
+font-weight: 700;
+line-height: 70px; /* 134.615% */
+width: 582px;
+height: 133px;
+}
+.section-2-dis{
+    color: #3A3A3A;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 505px;
+height: 60.9px;
+
+}
+.btn{
+    display: inline-flex;
+padding: 10px 24px;
+align-items: flex-start;
+gap: 8px;
+border-radius: 41px;
+background: #E02C6D;
+text-align: center;
+align-items: center;
+}
+.section-2-div{
+  
+  align-items: center;
+  
+}
+.section-2-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgg{
+    background-image: url(../images/Circle-design.svg);
+}
+.sponsor-img{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 160px;
+    margin-bottom: 160px;
+   
+}
+.section-3{
+    color: #3A3A3A;
+font-size: 28px;
+text-align: center;
+font-weight: 600;
+line-height: 70px; /* 250% */
+margin-bottom: 80px;
+}
+.section-content{
+    margin: 0px 195px;
+    
+}
+.content-card{
+    border-radius: 5px;
+background: #ffffff;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+width: 329px;
+height: 476px;
+border-radius: 5px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+margin-bottom: 60px;
+}
+.img-p{
+   margin: 17px 17px 15px 15px;
+}
+.card-t{
+    color: var(--text-gray-900, #18191F);
+font-size: 28px;
+margin-left: 14px;
+font-weight: 500;
+line-height: 40px; /* 142.857% */
+}
+.price{
+    color: rgba(0, 0, 0, 0.87);
+font-size: 24px;
+font-weight: 400;
+margin-left: 14px;
+line-height: 150%; /* 36px */
+}
+.card-cont{
+    color: var(--gray-50, #787885);
+font-size: 1.3rem;
+font-weight: 700;
+margin-left: 14px;
+line-height: 143%; /* 20.02px */
+letter-spacing: 0.252px;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.see-more{
+    text-align: right;
+    margin-right: 2rem;
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  
+}
+
+.section-end{
+    display: flex;
+    margin: 0 160px;
+    column-gap: 130px;
+    margin-top: 45px;
+    border: 2px solid red;
+}
+.section-end-cont{
+    border: 13px solid green;
+}
